@@ -1,0 +1,33 @@
+{
+  "name": "node-rest-api-tdd-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/server.js",
+    "secure:mode": "jest --watch --verbose=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/immichjs/node-rest-api-tdd-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/immichjs/node-rest-api-tdd-course/issues"
+  },
+  "homepage": "https://github.com/immichjs/node-rest-api-tdd-course#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.1",
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "knex": "^2.4.2",
+    "pg": "^8.10.0"
+  }
+}
